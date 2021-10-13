@@ -1,0 +1,62 @@
+*{
+	border-radius: 40px;
+	padding: 8px; 
+	text-align: center; 
+}
+body {
+		min-height: 100vh; 
+		transition: .5s
+}
+img{
+	margin: 0 auto;
+	height: 200px;
+	visibility: hidden; 
+	/*transition: 1s;*/
+}
+.show{
+	
+	visibility: visible;
+	transition: 1s;
+}
+
+.mouseEvent {
+	border: 6px solid purple; 
+	width: 220px;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	padding: 10px;
+}
+
+.themeContainer{
+	position: fixed;
+	top: 0;
+}
+
+.theme{
+	height: 30px;
+	width: 30px;
+	cursor: pointer;
+}
+#dark{
+	background: black;	
+}
+#purple{
+	background: purple;	
+}
+#red{
+	background: red;	
+}
+
+.darktheme{
+	background: black; 
+	color: white;
+}
+.purpletheme{
+	background: purple; 
+	color: white;
+}
+.redtheme{
+	background: red; 
+	color: white;
+}
